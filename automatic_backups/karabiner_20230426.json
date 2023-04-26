@@ -22,7 +22,7 @@
             "manipulators": [
               {
                 "from": {
-                  "key_code": "print_screen"
+                  "key_code": "f11"
                 },
                 "to": [
                   {
@@ -39,7 +39,7 @@
             "manipulators": [
               {
                 "from": {
-                  "key_code": "pause"
+                  "key_code": "f12"
                 },
                 "to": [
                   {
@@ -65,28 +65,7 @@
           },
           "ignore": false,
           "manipulate_caps_lock_led": true,
-          "simple_modifications": [
-            {
-              "from": {
-                "key_code": "f11"
-              },
-              "to": [
-                {
-                  "consumer_key_code": "volume_decrement"
-                }
-              ]
-            },
-            {
-              "from": {
-                "key_code": "f12"
-              },
-              "to": [
-                {
-                  "consumer_key_code": "volume_increment"
-                }
-              ]
-            }
-          ],
+          "simple_modifications": [],
           "treat_as_built_in_keyboard": false
         },
         {
@@ -239,7 +218,7 @@
           "simple_modifications": [
             {
               "from": {
-                "key_code": "f12"
+                "key_code": "pause"
               },
               "to": [
                 {
@@ -249,7 +228,7 @@
             },
             {
               "from": {
-                "key_code": "f11"
+                "key_code": "print_screen"
               },
               "to": [
                 {
@@ -359,26 +338,6 @@
           "to": [
             {
               "consumer_key_code": "mute"
-            }
-          ]
-        },
-        {
-          "from": {
-            "key_code": "f11"
-          },
-          "to": [
-            {
-              "consumer_key_code": "volume_decrement"
-            }
-          ]
-        },
-        {
-          "from": {
-            "key_code": "f12"
-          },
-          "to": [
-            {
-              "consumer_key_code": "volume_increment"
             }
           ]
         }
